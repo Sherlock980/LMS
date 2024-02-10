@@ -24074,7 +24074,7 @@ p,
 .brand-large {
   font-size: 2.5rem;
   font-weight: bold;
-  animation: colorChange 5s infinite; /* Adjust the duration (2s) as needed */
+  animation: colorChange 5s infinite;
 }
 
 .brand-small {

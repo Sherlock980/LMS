@@ -19,7 +19,7 @@ function TeamRow({ team, id }) {
   );
 
   return (
-    <OverlayTrigger trigger={['hover', 'focus']} placement='top' overlay={popover}>
+    <OverlayTrigger trigger={['hover', 'focus']} placement='bottom' overlay={popover}>
       <tr key={id}>
         <td>{team.name}</td>
         <td>{team.coachName}</td>
